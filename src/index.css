@@ -1,0 +1,43 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.light-theme
+{
+  --bg: #ddd;
+  --color: #17181a;
+}
+
+.dark-theme 
+{
+  --bg: #17181a;
+  --color: #ddd;
+}
+
+body 
+{
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--color);
+}
+
+h1 
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
+}
+
+.container 
+{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #17181a;
+  color: #ddd;
+  gap: 2rem;
+}

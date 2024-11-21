@@ -1,0 +1,48 @@
+.button-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.toggle-switch
+{
+    display: flex;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+}
+
+.image-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.5rem;
+}
+
+.image-container img 
+{
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.ball
+{
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transition: left .5s ease;
+    transform: translateY(-50%);
+}
