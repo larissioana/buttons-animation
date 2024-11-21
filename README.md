@@ -8,3 +8,6 @@ Follow these steps to clone and run the project locally:
 - Clone the Repository: git@github.com:larissioana/buttons-animation.git
 - Install Dependencies: npm install
 - Run the Project: cd button-animation => npm run dev
+  
+ 🎥 Preview: https://github.com/user-attachments/assets/3d1de63c-124f-4a01-a588-5f852556a615
+
